@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "rngfy",
+  "version": "1.0",
+
+  "description": "5",
+  "homepage_url": "https://null-dimension.github.io",
+  "icons": {
+    "48": "icons/rngfy-48.png"
+  },
+
+  "permissions": ["activeTab"],
+
+  "browser_action": {
+    "default_icon": "icons/rngfy-48.png",
+    "default_title": "rngfy",
+    "default_popup": "popup/menu.html",
+    "browser_style": true
+  }
+}
