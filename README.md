@@ -13,12 +13,9 @@ See the demo in (https://null-dimension.github.io/rngfy)
 
 ## Installation
 
-- Install the project as firefox extension. No release available yet
-
-## Debug
-
-- Go to about:debug
-- Install addon temporarily to test
+- Install the project as firefox extension in debug mode. No release available yet
+- Go to about:debugging in firefox
+- Load the addon temporarily to test
 
 ## Authors
 
