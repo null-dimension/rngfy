@@ -1,53 +1,26 @@
 
-# Project Title
+# RNGFY
 
-A brief description of what this project does and who it's for
+RNGFY is a firefox extension that randomizes css in a web page for fun
 
+## Demo
+
+See the demo in (https://null-dimension.github.io/rngfy)
 
 ## Features
 
-- Question and description
-- Dynamic number of options
-- Live score
-- Single page app
-
+- Randomize css in a web page for fun
 
 ## Installation
 
-Install my-project with yarn
+- Install the project as firefox extension. No release available yet
 
-```bash
-  yarn install my-project
-```
+## Debug
 
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://link-to-project
-```
-
-Go to the project directory
-
-```bash
-  cd my-project
-```
-
-Install dependencies
-
-```bash
-  yarn install
-```
-
-Start the server
-
-```bash
-  yarn run start
-```
-
+- Go to about:debug
+- Install addon temporarily to test
 
 ## Authors
 
-- [@katherinepeterson](https://www.github.com/octokatherine)
+- [@null-dimension](https://www.github.com/null-dimension)
 
