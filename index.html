@@ -5,20 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RNGfy Demo</title>
-    <style>
-      #rngfy {
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        cursor: pointer;
-        background-color: #333 !important;
-        color: #eee !important;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <button id="rngfy">Click me!</button>
+    <div id="menu-modal" class="display-none">
+      <div id="rngfy-container">
+        <div id="btn-close">X</div>
+        <div id="tag-selector-container">
+          <h3>Select tags to randomize</h3>
+          <select id="tag-selector" multiple>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div id="menu-container">
+      <button id="rngfy">RANDOMIZE!(R on KB)</button>
+      <button id="btn-menu">MENU</button>
+    </div>
     <h1>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h1>
 
     <p>
